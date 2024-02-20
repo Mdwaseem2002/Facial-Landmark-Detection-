@@ -1,0 +1,9 @@
+{
+  "image_path": "/path/to/your/image.jpg",
+  "shape_predictor_path": "/path/to/shape_predictor_68_face_landmarks.dat",
+  "facial_landmarks_color": [0, 255, 0],
+  "bounding_box_color": [255, 0, 0],
+  "landmark_radius": 2,
+  "landmark_line_color": [255, 255, 0],
+  "landmark_line_thickness": 1
+}
