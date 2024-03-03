@@ -12,7 +12,7 @@ app = flask.Flask(__name__)
 CORS(app)
 
 # Load facial landmark detector
-predictor_path = "/home/waseem/project/server/shape_predictor_68_face_landmarks.dat"  # Download from http://dlib.net/files/
+predictor_path = "/home/waseem/project/facial/server/shape_predictor_68_face_landmarks.dat"  # Download from http://dlib.net/files/
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(predictor_path)
 
